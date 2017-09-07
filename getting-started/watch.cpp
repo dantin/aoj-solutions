@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace	std;
 
-int 
-main()
+int main()
 {
-	int s;
+    int s;
 
-	cin >> s;
+    cin >> s;
 
-	cout << s / 3600 << ":" << (s % 3600) / 60 << ":" << (s % 60) << endl;
-	return 0;
+    cout << s / 3600 << ":" << (s % 3600) / 60 << ":" << (s % 60) << endl;
+    return 0;
 }

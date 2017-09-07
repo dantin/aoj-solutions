@@ -1,20 +1,19 @@
 #include <iostream>
 using namespace	std;
 
-int 
-main()
+int main()
 {
-	int a, b;
+    int a, b;
 
-	cin >> a >> b;
+    cin >> a >> b;
 
-	if (a < b)
-		cout << "a < b";
-	else if (a > b)
-		cout << "a > b";
-	else
-		cout << "a == b";
+    if (a < b)
+        cout << "a < b";
+    else if (a > b)
+        cout << "a > b";
+    else
+        cout << "a == b";
 
-	cout << endl;
-	return 0;
+    cout << endl;
+    return 0;
 }

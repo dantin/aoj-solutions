@@ -1,21 +1,23 @@
 #include <iostream>
 using namespace	std;
 
-int 
-main()
+int main()
 {
-	int a;
-	int b;
-	int c;
+    int a;
+    int b;
+    int c;
 
-	cin >> a >> b >> c;
+    cin >> a >> b >> c;
 
-	if (a < b && b < c) {
-		cout << "Yes";
-	} else {
-		cout << "No";
-	}
-	cout << endl;
+    if (a < b && b < c)
+    {
+        cout << "Yes";
+    }
+    else
+    {
+        cout << "No";
+    }
+    cout << endl;
 
-	return 0;
+    return 0;
 }

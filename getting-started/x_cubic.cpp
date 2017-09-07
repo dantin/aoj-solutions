@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int 
-main()
+int main()
 {
-	int x;
+    int x;
 
-	cin >> x;
-	cout << x * x * x << endl;
+    cin >> x;
+    cout << x * x * x << endl;
 
-	return 0;
+    return 0;
 }
