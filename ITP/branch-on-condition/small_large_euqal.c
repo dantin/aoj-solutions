@@ -7,7 +7,7 @@ int main()
     scanf("%d %d", &a, &b);
 
     if (a < b)
-	puts("a < b");
+        puts("a < b");
     else if (a > b)
         puts("a > b");
     else
